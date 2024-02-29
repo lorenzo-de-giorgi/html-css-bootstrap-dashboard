@@ -6,25 +6,22 @@
 	--color-gray: #6c757d;
 	--color-left-bar: #051e34;
 	--color-white: #ffffff;
+    --color-bg-header: #165bba;
+}
+
+.ldg-bg-header{
+    background-color: var(--color-bg-header);
 }
 
 ul{
     list-style: none;
 }
 
-.my-margin-navbar{
-    margin-left: 145px;
-}
 
 header{
     height: 50px;
 }
 
-.my-navbar{
-    height: 100px;
-    position: fixed;
-    width: calc(100% - 145px);
-}
 
 /* container */
 .ldg-wrapper{
@@ -109,6 +106,10 @@ main .card{
 
 .ldg-bottom{
     margin-bottom: 8px;
+}
+
+.ldg-font-size-small{
+    font-size: 15px;
 }
 
 @media screen and (max-width: 576px){
