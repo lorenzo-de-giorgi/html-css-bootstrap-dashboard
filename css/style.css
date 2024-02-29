@@ -1,0 +1,55 @@
+:root {
+	--color-top-bar: #1b72e8;
+	--color-green: #198754;
+	--color-yellow: #ffc107;
+	--color-red: #dc3545;
+	--color-gray: #6c757d;
+	--color-left-bar: #051e34;
+	--color-white: #ffffff;
+}
+
+/* container */
+.ldg-wrapper{
+    background-color: var(--color-white);
+    height: 100vh;
+}
+
+.ldg-content{
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+/* fixed trasparent navbar */
+nav{
+    width: 200px;
+    height: 100%;
+    background-color: var(--color-left-bar);
+    padding-top: 70px;
+}
+
+#sidebar{
+    width: 200px;
+    background-color: var(--color-left-bar);
+}
+
+main{
+    height: 100%;
+    width: calc(100% - 200px);
+    padding-top: 50px;
+}
+
+main .card{
+    margin-top: 2rem;
+}
+
+tr td img{
+    width: 4%;
+}
+
+.table-title{
+    font-size: 13px;
+}
+
+.data{
+    white-space: nowrap;
+}
