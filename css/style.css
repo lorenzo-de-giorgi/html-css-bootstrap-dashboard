@@ -102,16 +102,24 @@ main .card{
     font-size: 15px;
 }
 
+.ldg-new-student{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.ldg-bottom{
+    margin-bottom: 8px;
+}
+
 @media screen and (max-width: 576px){
 
     .mobile-none{
         display: none;
     }
 
-    ul li a span{
-        display: none;
-    }
+}
 
+@media screen and (max-width: 710px){
     #sidebar{
         width: 50px;
     }
@@ -122,5 +130,10 @@ main .card{
 
     main{
         width: calc(100% - 50px);
+    }
+
+    
+    ul li a span{
+        display: none;
     }
 }
