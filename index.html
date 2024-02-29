@@ -15,26 +15,33 @@
     <!-- header -->
     <header class="position-fixed top-0 left-0 w-100 py-2 bg-light">
         <div class="header-content w-100 bg-white">
+            <h2></h2>
         </div>
     </header>
     <div class="ldg-wrapper vh-100 w-100 d-flex ">
         <!-- sidebar -->
         <div id="sidebar" class="d-flex justify-content-between flex-column">
             <ul class="mt-5">
-                <li class="mb-2"><a class="text-decoration-none text-white" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-                <li class="mb-2"><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-chart-simple"></i> Stats</a></li>
-                <li><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-signal"></i> Signals</a></li>
+                <li class="mb-2"><a class="text-decoration-none text-white" href="#home"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+                <li class="mb-2"><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-chart-simple"></i> <span>Stats</span></a></li>
+                <li><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-signal"></i> <span>Signals</span></a></li>
             </ul>
 
             <ul>
-                <li><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-gear"></i> Admin</a></li>
+                <li><a class="text-decoration-none text-white" href="#"><i class="fa-solid fa-gear"></i> <span>Admin</span></a></li>
             </ul>
         </div>
         <!-- main section -->
         <main>
             <div class="h-100 overflow-y-auto ">
                 <!-- div blue -->
-
+                <div class="ldg-bg-blue">
+                    <div class="row d-flex flex-wrap">
+                        <div class="order-1 col-12 col-md-4">boolean</div>
+                        <div class="order-2 col-12 col-md-4">studenti</div>
+                        <div class="order-0 col-12 col-md-4">nuovo</div>
+                    </div>
+                </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-8">
@@ -192,7 +199,7 @@
                                 <ul class="list-group list-group-flush">
                                     <ul class="ldg-padding-list list-group">
                                         <li class="list-group-item">
-                                            <img class="graph-img" src="img/stats.jpeg" alt="">
+                                            <img class="card-img-top graph-img" src="img/stats.jpeg" alt="">
                                             <h5>Utenti Attivi</h5>
                                             <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                         </li>

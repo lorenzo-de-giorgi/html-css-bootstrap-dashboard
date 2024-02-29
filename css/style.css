@@ -16,6 +16,10 @@ ul{
     margin-left: 145px;
 }
 
+header{
+    height: 50px;
+}
+
 .my-navbar{
     height: 100px;
     position: fixed;
@@ -26,6 +30,10 @@ ul{
 .ldg-wrapper{
     background-color: var(--color-white);
     height: 100vh;
+}
+
+.ldg-bg-blue{
+    background-color:  var(--color-top-bar);
 }
 
 .ldg-content{
@@ -90,10 +98,6 @@ main .card{
     padding: 15px;
 }
 
-.graph-img{
-    width: 90%;
-}
-
 .ldg-small-text{
     font-size: 15px;
 }
@@ -104,4 +108,19 @@ main .card{
         display: none;
     }
 
+    ul li a span{
+        display: none;
+    }
+
+    #sidebar{
+        width: 50px;
+    }
+
+    #sidebar i {
+        margin-left: -15px;
+    }
+
+    main{
+        width: calc(100% - 50px);
+    }
 }
