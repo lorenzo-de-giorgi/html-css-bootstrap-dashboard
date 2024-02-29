@@ -8,6 +8,16 @@
 	--color-white: #ffffff;
 }
 
+.my-margin-navbar{
+    margin-left: 145px;
+}
+
+.my-navbar{
+    height: 100px;
+    position: fixed;
+    width: calc(100% - 145px);
+}
+
 /* container */
 .ldg-wrapper{
     background-color: var(--color-white);
@@ -32,6 +42,10 @@ nav{
     background-color: var(--color-left-bar);
 }
 
+.card-header h2{
+    font-size: 24px;
+}
+
 main{
     height: 100%;
     width: calc(100% - 200px);
@@ -39,11 +53,16 @@ main{
 }
 
 main .card{
-    margin-top: 2rem;
+    margin-top: 0.8rem;
 }
 
-tr td img{
-    width: 4%;
+.avatar-container{
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-container img{
+    width: 100%;
 }
 
 .table-title{
@@ -52,4 +71,28 @@ tr td img{
 
 .data{
     white-space: nowrap;
+}
+
+.trash-icon{
+    margin-left: 15px;
+}
+
+.ldg-padding-list{
+    padding: 15px;
+}
+
+.graph-img{
+    width: 90%;
+}
+
+.ldg-small-text{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 576px){
+
+    .mobile-none{
+        display: none;
+    }
+
 }
