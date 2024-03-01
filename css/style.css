@@ -9,6 +9,18 @@
     --color-bg-header: #165bba;
 }
 
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.ldg-ul{
+    padding-top: 8px;
+}
+
+.ldg-gray-text{
+    color: var(--color-gray);
+}
+
 .ldg-bg-header{
     background-color: var(--color-bg-header);
 }
@@ -22,7 +34,25 @@ header{
     height: 50px;
 }
 
+.fa-bell{
+    color: var(--color-yellow);
+}
 
+.ldg-plus{
+    display: none;
+}
+
+.ldg-mobile-logo{
+    display: none;
+}
+
+.fa-chevron-right{
+    font-size: 15px;
+}
+
+.ldg-margin-top{
+    margin-top:70px;
+}
 /* container */
 .ldg-wrapper{
     background-color: var(--color-white);
@@ -112,6 +142,10 @@ main .card{
     font-size: 15px;
 }
 
+.ldg-offcanvas{
+    width: 800px;
+}
+
 @media screen and (max-width: 576px){
 
     .mobile-none{
@@ -120,7 +154,54 @@ main .card{
 
 }
 
-@media screen and (max-width: 710px){
+@media screen and (max-width: 992px){
+
+    .ldg-responsive{
+        display: none;
+    }
+
+    .ldg-plus{
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .ldg-responsive-ul{
+        display: none;
+    }
+
+    .ldg-flex-left{
+        max-width: 300px;
+    }
+
+    #boolean{
+        margin-bottom: 20px;
+    }
+
+    #new-student{
+        margin-bottom: 20px;
+    }
+
+    #students-online{
+        margin-bottom: 20px;
+    }
+
+    .ldg-big-logo{
+        display: none;
+    }
+
+    .mobile-logo-container{
+        height: 50px;
+        width: 50px;
+    }
+
+    .ldg-mobile-logo{
+        display: block;
+        width: 100%;
+    }
+
     #sidebar{
         width: 50px;
     }
@@ -132,7 +213,6 @@ main .card{
     main{
         width: calc(100% - 50px);
     }
-
     
     ul li a span{
         display: none;
